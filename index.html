@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobile Shop</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>Mobile Shop</h1>
+
+	<div class="container">
+		<div class="items">
+			<h2>Telefoni</h2>
+
+			<div class="single-item">
+				<img src="img/iphone13.png">
+				<div class="si-content">
+					<h3>Iphone 13</h3>
+					<p class="price">$1000</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/iphone12.png">
+				<div class="si-content">
+					<h3>Iphone 12</h3>
+					<p class="price">$600</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/sam.png">
+				<div class="si-content">
+					<h3>Samsung S22</h3>
+					<p class="price">$700</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="cart">
+			<h2>Korpa</h2>
+			
+			<div class="cart-items"></div>
+
+			<div class="total"></div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
